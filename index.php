@@ -9,7 +9,10 @@
 </head>
 <body class="bg-dark text-light">
     <div class="row mt-5">
-        <div class="col-md-6 offset-3 p-3 text-center bg-black">
+        <div class="col-md-4 offset-4 p-3 text-center bg-black">
+            <?php
+                #require_once('./views/registrofrm.php'); 
+            ?>
         </div>
     </div>
     <script src="/assets/css/bootstrap.min.css"></script>
