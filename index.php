@@ -1,3 +1,7 @@
+<?php 
+    session_start();
+    define('ACESSO', true);
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,9 +13,9 @@
 </head>
 <body class="bg-dark text-light">
     <div class="row mt-5">
-        <div class="col-md-4 offset-4 p-3 text-center bg-black">
+        <div class="col-md-4 offset-4 py-5 text-center bg-black">
             <?php
-                #require_once('./views/registrofrm.php'); 
+                require_once('./controller/rotas.php');
             ?>
         </div>
     </div>

@@ -1,4 +1,5 @@
 <form action="#" method="post" class="">
+    <input type="hidden" name="rota" value="login_submit">
     <div class="row mb-3">
         <div class="col">
             <h2>Entrar</h2>
@@ -22,6 +23,14 @@
         </div>
         <div class="col-2 mb-3">
             <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </div>
+</form>
+<form action="#" method="post">
+    <div class="form-row d-flex mt-3 mb-2">
+        <div class="col-6 offset-3 mb-3">
+            <input type="hidden" name="rota" value="registro">
+            <button type="submit" class="btn btn-success">Não possui uma conta? Registre-se</button>
         </div>
     </div>
 </form>
