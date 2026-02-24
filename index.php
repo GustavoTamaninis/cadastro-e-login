@@ -19,6 +19,8 @@
             ?>
         </div>
     </div>
-    <script src="/assets/css/bootstrap.min.css"></script>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/validaform.js"></script>
 </body>
 </html>

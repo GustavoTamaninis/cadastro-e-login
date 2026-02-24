@@ -1,4 +1,4 @@
-<form action="#" method="post" class="">
+<form action="#" method="post" class="" id="frmlogin">
     <input type="hidden" name="rota" value="login_submit">
     <div class="row mb-3">
         <div class="col">
@@ -30,7 +30,7 @@
     <div class="form-row d-flex mt-3 mb-2">
         <div class="col-6 offset-3 mb-3">
             <input type="hidden" name="rota" value="registro">
-            <button type="submit" class="btn btn-success">Não possui uma conta? Registre-se</button>
+            <button type="submit" class="btn btn-success" id="btn_login">Não possui uma conta? Registre-se</button>
         </div>
     </div>
 </form>
