@@ -16,10 +16,12 @@
             require_once('./views/registrofrm.php');
             break;
         case 'login_submit':
-            echo "login submit";
+            require_once('./models/login_submit.php');
             break;
         case 'registro_submit';
-            echo "registro submit";
+            require_once('./models/registro_submit.php');
             break;
+        default:
+            echo "Erro! Nenhuma rota definida.";
     }
 ?>

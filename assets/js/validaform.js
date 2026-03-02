@@ -5,7 +5,7 @@ const cxSenha = document.getElementById('txt_senha');
 const cxTelefone = document.getElementById('txt_telefone');
 
 const regexEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-const regexSenha = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&-/])[A-Za-z\d@$!%*?&-/]{8,16}$/;
+const regexSenha = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&/-])[A-Za-z\d@$!%*?&/-]{8,16}$/;
 const regexNomeCompleto = /^[A-ZÀ-ÿa-zà-ÿ\s]{3,50}$/;
 const regexNomeUsuario = /^[A-ZÀ-ÿa-zà-ÿ0-9_]{5,20}$/;
 const regexTelefone = /^(\(?\d{2}\)?\s?)(9?\d{4}[-\s]?\d{4})$/;
