@@ -1,4 +1,4 @@
-<form action="#" method="post" class="" id="frmregistro">
+<form action="#" method="post" class="" id="frmregistro" onsubmit="return validarRegistro()">
     <input type="hidden" name="rota" value="registro_submit">
     <div class="row mb-3">
         <div class="col">
