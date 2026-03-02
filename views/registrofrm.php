@@ -25,14 +25,14 @@
     <div>
     <div class="form-row">
         <div class="col-6 offset-3 mb-3">
-            <label for="txt_email" class="form-label">Senha:</label>
-            <input type="text" name="txt_email" id="txt_email" class="form-control">
+            <label for="txt_senha" class="form-label">Senha:</label>
+            <input type="text" name="txt_senha" id="txt_senha" class="form-control">
         </div>
     <div>
     <div class="form-row">
         <div class="col-6 offset-3 mb-3">
-            <label for="txt_email" class="form-label">Telefone:</label>
-            <input type="text" name="txt_email" id="txt_email" class="form-control">
+            <label for="txt_telefone" class="form-label">Telefone:</label>
+            <input type="text" name="txt_telefone" id="txt_telefone" class="form-control">
         </div>
     <div>
     <div class="form-row d-flex mt-4">
